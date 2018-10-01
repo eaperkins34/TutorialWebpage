@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url("../assets/JSBackground.jpg") no-repeat center center fixed;
+    background: url("./assets/JSBackground.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
 }
@@ -38,7 +38,7 @@ body {
 .title {
     font-family: 'Courgette', cursive;
     font-size: 50px;
-    background-image: url("../assets/title-background.jpg");
+    background-image: url("./assets/title-background.jpg");
     height: 125px;
     color: rgb(240, 218, 80);
     text-align: center;
@@ -51,7 +51,7 @@ body {
 }
 
 section#sidebar{
-    background-image: url("../assets/title-background.jpg");
+    background-image: url("./assets/title-background.jpg");
     height: 140px;
     width: 200px;
     float: right;
@@ -96,7 +96,7 @@ section#sidebar{
 h2{
     font-size: 50px;
     font-family: 'Dancing Script', cursive;
-    background-image: url("../assets/title-background.jpg");
+    background-image: url("./assets/title-background.jpg");
     position: relative;
     z-index: 4;
     color: rgb(240, 218, 80);
@@ -205,7 +205,7 @@ h2{
 }
 
 #footer {
-    background-image: url("../assets/title-background.jpg");
+    background-image: url("./assets/title-background.jpg");
     padding: 10px;
     text-align: center;
     color: white;
