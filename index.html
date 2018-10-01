@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../Tutorial-Webpage/0-tutorial-webpage.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <title>JavaScript Basics</title>
+    <header class="title">Welcome to Basics of JavaScript
+        <div id="topnav">
+            <a class="historyLink" href="History.html">History of Coding</a>
+            <a class="htmlLink" href="HTML.html">HTML</a>
+            <a class="cssLink" href="CSS.html">CSS</a>
+            <a class ="cPlusLink" href="cplusplus.html>">C++</a>
+        </div>
+    </header>
+</head>
+
+<body>
+    <section id="sidebar">
+    Additional Resources
+    <ul class="resources">
+    <li><a href="w3Schools"> W3 Schools</a></li>
+    <li><a href="elevenFifty"> Eleven Fifty</a></li>
+    <li><a href="stackOverFlow"> Stack Overflow</a></li>
+    <li><a href="codeWars"> Code Wars</a></li>
+    </ul>
+    </section>
+
+    <iframe class="gif" src="https://giphy.com/embed/10bdAP4IOmoN7G" width="480" height="260" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/wars-javascript-10bdAP4IOmoN7G">via GIPHY</a></p>
+
+    <br><br><br><br><br><br><br><br>  
+    <h2>Basics of JavaScript</h2>
+    <br>
+    <div class="info">
+        <p>There are many different tools inside JavaScript that can be used to help create a webpage. Outlined below are some of 
+        the different tools that can be useful when creating with JavaScript.</p>
+        </div>  
+    <br>
+    <h2>Functions</h2>
+    <br>
+    <div class="info">
+        <p>Functions allow a webpage to execute a single action, or multiple actions. It 
+                        is broken down into 3 main parts, the keyword, the name, and the action. Here's an
+                        example of a simple function:</p><br>
+        <pre class="code"><code>
+            <div class = "functionCode">
+        function hello(){ 
+            console.log ("Hello World!")
+        }
+            </div>
+        </code></pre><br>
+        <ol class ="breakdown"> 
+                <li>Broken down, the FUNCTION <b>keyword</b> notifies the user the following information is a function.</li>
+                <li>The function has the <b>name</b> HELLO. This is what we will use to call the function later.</li>
+                <li>"Console.log("Hello World!") is the <b>action</b> that will be executed when the function is called.</li>
+        </ol><br>
+    
+        <p>So when this action is "called," the result will be "Hello World!" To call the function the code is: <br>
+            <pre><code><div class="helloCode">
+         hello();
+            </code></pre></p></div><br>
+    </div>
+    <br>
+    <h2>For Loops</h2>
+    <br>
+    <div class="forLoops">
+        <p>For Loops are helpful when pulling multiple blocks of code until a condition is met. A For Loop consists 
+            of a variable, a condition, an action, and the call. The easiest way to show this is by using numbers. Below    
+            is an example of a For Loop that counts from 0 to 10. </p>
+        <pre class="code"><code>
+            <div class="forLoopCode">
+        for (var i = 0; i &lt= 10; i +=1){
+            console.log(i)
+        }
+            </div>
+        </pre></code><br>
+            <ol>
+                <li>"i" is the <b>variable</b> and defined as "0." This causes the equation to start at 0.</li>
+                <br>
+                <li>The <b>condition</b> is "i" must be less than or equal to 10.</li>
+                <br>
+                <li>"+=" is the required code for addition. "i += 1" is the <b>action</b> telling the code to add 1 to "i." </li>
+                <br>
+                <li>"Console.log(i) is the <b>call</b> to pull "i."</li>
+            </ol><br>
+        <p>When this For Loop is performed, the result will list out 0-10 individually.</p>
+    </div>   
+    <br>
+    <h2>Arrays</h2>
+    <br>
+    <div class="arrayInfo">
+        <p>Arrays are useful in that they allow the user to store multiple valuables within a single variable. An array has a 
+            2 main elements and can be easily identified by the use of square brackets. See the array below: </p> <br>
+    <pre class="code"><code>
+            <div class="arrayCode">
+    var colors = ['red', 'orange', 'yellow', 
+                  'blue', 'indigo', 'violet']
+            </div>
+    </pre></code>
+        <ol><br>
+            <li>The array <b>name</b> is "colors." This is what will be used to call the array. </li>
+            <li>The <b>value</b> is what is inside the square brackets and tells the user what is inside the array.</li>
+        </ol><br>
+        <p>An array is nice in that individual values can be pulled from it. Each color in the above array is assigned an index number
+            automatically. The index number of an array always starts at 0, so red is assigned to 0, orange to 1, etc. If I want to pulled
+            specifically indigo listed in the above array, I would use:
+        </p><br>
+        <pre><code><div class="indigoCode">
+    console.log(colors[4]);
+                   </code></pre>
+    
+    </div>
+    <br>
+    <footer id="footer">
+        <p>Copyright © Emily 2018
+        <a class="contactUsLink" href="ContactUs.html">"Contact Us"</a>
+        <a class="addResourceLink" href="AdditionalResources.html">"Additional Resources"</a>
+        <a class="addressLink" href="PrivacyPolicy.html">"Privacy Policy"</a></p>
+    </footer>
+</body>
+</html>
