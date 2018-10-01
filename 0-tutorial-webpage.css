@@ -205,7 +205,7 @@ h2{
 }
 
 #footer {
-    background-image: url("./assets/title-background.jpg");
+    background-image: url("../assets/title-background.jpg");
     padding: 10px;
     text-align: center;
     color: white;
