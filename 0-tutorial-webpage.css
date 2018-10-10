@@ -8,10 +8,13 @@ body {
     height: 100%;
 }
 
+#topnav {
+    margin-top: -1%;
+}
+
 #topnav a {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    padding-top: 30px;
     color: white;
 }
 
@@ -98,7 +101,6 @@ h2{
     font-family: 'Dancing Script', cursive;
     background-image: url("./assets/title-background.jpg");
     position: relative;
-    z-index: 4;
     color: rgb(240, 218, 80);
     text-align: center;
     margin-right: 22%;
